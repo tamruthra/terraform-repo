@@ -23,8 +23,8 @@
 
 ## To set the env variables in windows machine
 ```
-   # $Env:TF_VAR_ami='ami-04e35eeae7a7c5883'
-   # $Env:TF_VAR_instance_type='t3.micro'
+  # $Env:TF_VAR_ami='ami-04e35eeae7a7c5883'
+  # $Env:TF_VAR_instance_type='t3.micro'
 ```
 ## To verify the env variables
   `# dir env:`
