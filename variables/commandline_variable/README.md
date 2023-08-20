@@ -19,6 +19,7 @@
 ```
 
                     or 
+### *Check the plan with variables and output that plan.  After that apply with plan output file*
 ```
 # terraform plan -out "tf_plan" -var ami=ami-04e35eeae7a7c5883 -var instance_type=t3.micro
 # terraform apply -out "tf_plan"
@@ -29,6 +30,3 @@
 
 ## To Destroy the instance
 `# terraform destroy -var ami=ami-04e35eeae7a7c5883 -var instance_type=t3.micro`
- 
- #### *If you are create resource with ***terraform apply -out "tf_plan"*** you can use the ***"tfplan"*** to destroy*
- `# terraform destroy -out "tf_plan"`
