@@ -60,7 +60,7 @@ resource "aws_security_group" "bastion_sg" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = "aws_key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDA599ELSVX7/PEEOyhv7TjwCNvdwR0j/JyxqdgzwOBBVFjoghIQgd3chNI/WgLCaibDBOeSBseDKfi9mpRe0Pazc8S8fr3v3Tq1KGFgAqOPfIDXoVa4SHsbaOfyz7ykslDaTiF+Ji2pUizHt43gL8GtgKNuNcpK2ZlkNV5FrJcRQoENzo+nsyxspm076+cRXbrpzaDuP+tMLedmjfrK5yCrVHNi68Nnf0LpqX6iCyAu1wn3pInCT2VigRhJJXoYhdxoEezXu9NsUl/0r+XqCjvYBqEwhs2mUuarBf7G6BfkwuBkfFkhi8jsOhM2TJLchMEbv6p/iS3fv/pV1PKbvTaxydqkoATOil6ZiTN3F5WCaDG/uKxipNz/4OLhjRIS4LRXNdYLCGkDBcNMo+iMwvMdO+1CrE6d1RxwAyI6mQRqOwNW891Ble/csLu7/8eMPTujeHkNPDhgGqnp/vZd6PvoJBRZtgBcBcJ3gv5FQd+Z9DzG/n+I1W1mEcipUs1FiE= ruthra@DESKTOP-61O30OL"
+  public_key = "<Add Your full public key>"
   tags = {
     Name = "aws_key"
   }
